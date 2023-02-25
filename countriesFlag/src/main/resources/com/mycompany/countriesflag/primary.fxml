@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane fx:id="scenepane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.countriesflag.PrimaryController">
+   <children>
+      <Button fx:id="lesothoButton" layoutX="169.0" layoutY="75.0" mnemonicParsing="false" onAction="#flagLesotho" text="LESOTHO" />
+      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="155.0" layoutY="143.0" stroke="BLACK" strokeType="INSIDE" width="277.0" />
+      <Rectangle fx:id="rectangle2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" layoutX="155.0" layoutY="220.0" stroke="BLACK" strokeType="INSIDE" width="277.0" />
+      <Rectangle fx:id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="77.0" layoutX="155.0" layoutY="297.0" stroke="BLACK" strokeType="INSIDE" width="277.0" />
+      <Button layoutX="42.0" layoutY="246.0" mnemonicParsing="false" onAction="#flagEstonia" text="ESTONIA" />
+      <Button fx:id="GabonButton" layoutX="478.0" layoutY="234.0" mnemonicParsing="false" onAction="#flagGabon" text="GABON" />
+      <Button fx:id="ArmeniaButton" layoutX="330.0" layoutY="69.0" mnemonicParsing="false" onAction="#flagArmenia" text="ARMENIA" />
+      <Button fx:id="RassiaButton" layoutX="155.0" layoutY="442.0" mnemonicParsing="false" onAction="#flagRassia" text="RASSIA" />
+      <Button fx:id="ClearButton" layoutX="268.0" layoutY="442.0" mnemonicParsing="false" onAction="#ClearFlag" text="CLEAR" />
+      <Label fx:id="name" layoutX="259.0" layoutY="118.0" text="COUNTRY NAME" />
+      <Button fx:id="exitButton" layoutX="398.0" layoutY="442.0" mnemonicParsing="false" onAction="#EXIT" text="EXIT" />
+   </children>
+</AnchorPane>
